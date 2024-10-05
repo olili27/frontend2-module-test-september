@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 6rem 3.625rem;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+form .form-element {
+    width: 531px;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .form-element input {
+    padding: 0.8rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+
+#add-user {
+    margin-top: 2.5rem;
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.message, h2 {
+    margin-top: 2rem;
+}
+
+.message {
+    display: none;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.zero-employees-msg, #added-employees div {
+    margin-top: 1.5rem;
+}
+
+.zero-employees-msg {
+    opacity: 0.3;
+    /* display: none; */
+}
+
+#added-employees {
+    margin-top: 2rem;
+}
+
+#added-employees .info {
+    display: flex;
+}
+
+.employee-info {
+    border: 1px solid #fff;
+    width: 539px;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 21.78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+
+.delete-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.delete {
+    width: 162px;
+    height: 42px;
+    border-radius: 20px;
+}
